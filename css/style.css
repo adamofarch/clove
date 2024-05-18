@@ -130,9 +130,9 @@ header nav ul li:hover > ul{
     display: flex;
     background-color: white;
     align-items: center;
-    margin: 2em;
+    margin: 3em;
     padding-left: 6rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .features-left {
@@ -148,8 +148,10 @@ header nav ul li:hover > ul{
 }
 
 .features-right {
-    margin-left: 25%;
+    margin-left: 20%;
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .star-review {
@@ -167,33 +169,32 @@ header nav ul li:hover > ul{
     margin-left: 0.5em;
 }
 
-/* Not Implemented  */
-/* .vl {
-    border-left: 5px solid #F8943F ;
+
+.vl {
+    border-left: 6px solid var(--main-orange);
     margin-left: 3rem;
     margin-right: 3rem;
     border: 1;
-} */
+} 
 
 .city-select-btn{
-    border-radius: 5;
     padding: 1.2rem;
-    font-size: larger;
+    font-size: x-large;
     border: 1;
-    border-radius: 30px;
+    border-radius: 40px;
     color: grey;
     background-color: transparent;
     border-color: grey;
 }
 
 .locate-btn {
-    background-color: #F8943F;
-    padding: 1.2rem;
-    font-size: larger;
+    background-color: var(--main-orange);
+    padding: 1.3rem 2.5rem;
+    font-size: x-large;
     color: white;
     border-color: grey;
     border: 1;
-    border-radius: 30px;
+    border-radius: 40px;
     text-decoration: none;
 }
 .cities {
@@ -204,17 +205,18 @@ header nav ul li:hover > ul{
 .wrapper-dental {
     background-color: #FFF9F4;
     text-align: center;
-    margin: 10em;
+    margin: 6em;
     border-radius: 30px;
 }
 
 .dental-heading {
     font-size: 2.5rem;
     padding-top: 2em;
+    margin-bottom: 2rem;
 }
 
 .dental-features {
-    padding: 5rem 10rem;
+    padding: 3rem 5rem;
 }
 
 .services {
@@ -231,7 +233,12 @@ header nav ul li:hover > ul{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding: 30px 45px;
+    padding: 20px 70px;
     background-color: white;
     border-radius: 20px;
+}
+
+.explore-btn {
+    text-align: center;
+    margin-top: 2rem;
 }
